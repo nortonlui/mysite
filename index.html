@@ -5,20 +5,239 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="css/style.css">
-  <title>MySite</title>
+  <meta name="title" content="Desenvolvedor">
+  <meta name="description" content="Informações sobre minhas habilidades e conhecimentos">
+  <meta name="keywords" content="desenvolvedor, analista, react, javascript, php, frontend, backend">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="language" content="Portuguese">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/theme.css">
+
+  <title>NL DEV</title>
 </head>
 
 <body>
-  <div class="container">
-    <div class="flex">
-      <div class="tool">
-        <i class="fas fa-tools fa-5x"></i>
+
+  <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary-darken py-1">
+      <div class="container-fluid">
+        <ul class="social-list list-inline mb-0">
+          <li class="list-inline-item"><a class="text-white" href="https://www.linkedin.com/in/norton-luiz-885aa4162/" target="_blank"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+          <li class="list-inline-item"><a class="text-white" href="https://github.com/nortonlui" target="_blank"><i class="fab fa-github-alt fa-fw"></i></a></li>
+          <li class="list-inline-item"><a class="text-white" href="https://codepen.io/nortonlui" target="_blank"><i class="fab fa-codepen fa-fw"></i></a></li>
+        </ul>
+        <!--//social-list-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-uppercase" id="navigation">
+          <ul class="navbar-nav ms-lg-auto">
+            <li class="nav-item me-lg-3">
+              <a class="nav-link active" aria-current="page" href="#">Sobre
+              </a>
+            </li>
+            <li class="nav-item me-lg-3">
+              <a class="nav-link" href="projects.html">Projetos</a>
+            </li>
+            <li class="nav-item me-lg-3">
+              <a class="nav-link" href="resume.html">Resume</a>
+            </li>
+            <li class="nav-item me-lg-3">
+              <a class="nav-link" href="contact.html">Contato</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <h1>Site em construção !!!!</h1>
+    </nav>
+  </header>
+  <section class="header-intro bg-primary-light text-white py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-auto text-center text-md-start me-4">
+          <img src="assets/images/profile2.jpeg" alt="" class="profile-image mb-3 rounded mx-auto mb-lg-0 text-md-start">
+        </div>
+        <div class="col text-center text-md-start">
+          <div class="lead">Olá, Meu Nome é </div>
+          <h2 class="mt-0 display-4 font-weight-bold">Norton Luiz</h2>
+          <div class="bio mb-3 pb-1">
+            Eu sou um full-stack developer especializado no frontend e backend para aplicativos web complexos e escalonáveis. Experiência em diversos segmentos do mercado e implementações críticas. Sempre antenado nas novidades e evoluções do mercado
+          </div>
+          <a href="contact.html" class="btn btn-contato font-weight-bold text-center text-white">Contato</a>
+        </div>
+      </div>
     </div>
-  </div>
+  </section>
+  <section class="skills py-5">
+    <div class="container">
+      <h3 class="skill-title font-weight-bold text-center mb-3">
+        Meus Skills
+      </h3>
+      <div class="skill-desc lead mx-auto text-center mb-5 text-secondary">
+        Eu tenho +5 anos de experiência no desenvolvimento de aplicativos web para diversos tipos de clientes. Sólidos conhecimentos de infraestrutura. Abaixo overview dos meus conhecimentos e ferramentas.
+        <br>
+        <a href="resume.html" class="mt-1">Veja meu curriculo</a>
+      </div>
+      <div class="skill-cards mx-auto pt-5">
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <div class="card py-5">
+              <div class="card-icone">
+                <i class="fas fa-code fa-3x text-white"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Frontend</h5>
+                <p class="card-text">
+                <ul>
+                  <li class="p-1"><i class="fas fa-check"></i><span class="card-text-item">HTML/CSS3</span></li>
+                  <li class="p-1"><i class="fas fa-check"></i><span class="card-text-item">Javascript</span></li>
+                  <li class="p-1"><i class="fas fa-check"></i><span class="card-text-item">React/Redux</span></li>
+                  <li class="p-1"><i class="fas fa-check"></i><span class="card-text-item">SASS</span></li>
+                  <li class="p-1"><i class="fas fa-check"></i><span class="card-text-item">UI/UX</span></li>
+                </ul>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="card py-5">
+              <div class="card-icone">
+                <i class="fas fa-database fa-3x text-white"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Backend</h5>
+                <p class="card-text">
+                <ul>
+                  <li class="p-1"><i class="fas fa-check"></i><span class="card-text-item">Mysql</span></li>
+                  <li class="p-1"><i class="fas fa-check"></i><span class="card-text-item">Postgresql</span></li>
+                  <li class="p-1"><i class="fas fa-check"></i><span class="card-text-item">SQL Server</span></li>
+                  <li class="p-1"><i class="fas fa-check"></i><span class="card-text-item">SQLite3</span></li>
+                  <li class="p-1"><i class="fas fa-check"></i><span class="card-text-item">MongoDB</span></li>
+                </ul>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="card py-5">
+              <div class="card-icone">
+                <i class="fas fas fa-toolbox fa-3x text-white"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Outros</h5>
+                <p class="card-text">
+                <ul>
+                  <li class="p-1"><i class="fas fa-check"></i><span class="card-text-item">Python</span></li>
+                  <li class="p-1"><i class="fas fa-check"></i><span class="card-text-item">PHP</span></li>
+                  <li class="p-1"><i class="fas fa-check"></i><span class="card-text-item">Linux</span></li>
+                  <li class="p-1"><i class="fas fa-check"></i><span class="card-text-item">ShellScript</span></li>
+                  <li class="p-1"><i class="fas fa-check"></i><span class="card-text-item">AWS</span></li>
+                </ul>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="projects py-3">
+    <div class="container">
+      <h3 class="font-weight-bold text-center mb-5">Meus projetos</h3>
+      <div class="row projects-card mb-5">
+        <div class="col-12 col-lg-6">
+          <div class="card projects-card-item">
+            <img src="assets/images/projects/social.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">DevConnector <a class="d-inline" href="https://github.com/nortonlui/devconnector" target="_blank"><i class="fas fa-folder-open"></i></a>
+
+              </h5>
+              <a href="#" class="btn rounded">HTML/CSS</a>
+              <a href="#" class="btn rounded" style="visibility: hidden;"></a>
+              <a href="#" class="btn rounded">ExpressJS</a>
+              <a href="#" class="btn rounded">React</a>
+              <a href="#" class="btn rounded">Redux</a>
+              <a href="#" class="btn rounded">MongoDB</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="card projects-card-item">
+            <img src="assets/images/projects/shopping.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Proshop <a class="d-inline" href="https://github.com/nortonlui/proshop" target="_blank"><i class="fas fa-folder-open"></i></a></h5>
+              <a href="#" class="btn rounded">MongoDB</a>
+              <a href="#" class="btn rounded" style="visibility: hidden;"></a>
+              <a href="#" class="btn rounded">ExpressJS</a>
+              <a href="#" class="btn rounded">React</a>
+              <a href="#" class="btn rounded">Redux</a>
+              <a href="#" class="btn rounded">HTML/CSS</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="card projects-card-item">
+            <img src="assets/images/projects/p04.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Portfolio <a class="d-inline" href="https://github.com/nortonlui/portfolio" target="_blank"><i class="fas fa-folder-open"></i></a></h5>
+              <a href="#" class="btn rounded">HTML/CSS</a>
+              <a href="#" class="btn rounded" style="visibility: hidden;"></a>
+              <a href="#" class="btn rounded">Javascript</a>
+              <a href="#" class="btn rounded" style="visibility: hidden;"></a>
+              <a href="#" class="btn rounded">SASS</a>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="card projects-card-item">
+            <img src="assets/images/projects/weather.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">WeatherJS <a class="d-inline" href="https://github.com/nortonlui/weatherjs" target="_blank"><i class="fas fa-folder-open"></i></a></h5>
+              <a href="#" class="btn rounded" style="visibility: hidden;"></a>
+              <a href="#" class="btn rounded">HTML/CSS</a>
+              <a href="#" class="btn rounded" style="visibility: hidden;"></a>
+              <a href="#" class="btn rounded" style="visibility: hidden;"></a>
+              <a href="#" class="btn rounded">Javascript</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="main-contact bg-primary-light py-5">
+    <div class="container">
+      <div class="text-center">
+        <img src="assets/images/profile2.jpeg" class="profile-small rounded-circle mb-2" alt="">
+        <h3 class="main-contact-title font-weight-bold text-center mb-2 text-white">
+          Interessado em me contratar para o seu projeto ?
+        </h3>
+        <div class="main-contact-text text-center mb-3 text-white">
+          Procurando por experiência em desenvolvimento full stack para construir o seu aplicativo web ?. Para iniciar a conversa, só mandar um email para <span class="fst-italic">contato@nortonluiz.dev.br</span> ou use o formulário de contato.
+        </div>
+
+        <div class="main-contact-btn text-center">
+          <a href="contact.html" class="btn text-white font-weight-bold">Contato</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer text-white text-center py-2">
+    <small class="copyright">
+      Construido por nortonluiz.dev.br
+    </small>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="assets/js/script.js"></script>
 
 </body>
 
